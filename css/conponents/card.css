@@ -1,0 +1,70 @@
+.card {
+  padding: 15;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px;
+  border-radius: 20px;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.card img {
+  width: 200px;
+}
+
+.card h3 {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 10px;
+  background: #f4ba4c;
+  font-size: 30;
+  font-weight: bold;
+}
+
+.card p {
+  font-family: 'Lora', serif ;
+  padding-left: 60px;
+  font-size: 15px;
+  background-color: #f4ba4c8a;
+  margin: 10px;
+
+}
+
+.aviss{
+  display: flex;
+  justify-content: center;
+}
+
+.avis {
+  padding: 15;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.avis img {
+  width: 200px;
+  border-radius: 20px;
+  width: 160px;
+  height: 160px;
+}
+
+.avis h3 {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.avis p {
+  font-family: 'Lora', serif;
+  padding: 20px;
+  font-size: 15px;
+  background-color: #f4ba4c8a;
+  margin: 10px;
+  border-radius: 20px;
+
+}

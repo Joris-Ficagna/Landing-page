@@ -1,0 +1,86 @@
+.slider {
+
+    width: 500px;
+
+    height: 300px;
+
+    overflow: hidden;
+
+    margin: 40px;
+
+    color: white;
+
+font-family: 'Kanit', sans-serif;
+
+  }
+
+  .slides {
+
+    width: calc(500px * 3);
+
+    animation: glisse 8s infinite;
+
+  }
+
+  .slide {
+    font-size: 30px
+    color:black;
+    float: left;
+
+  }
+
+
+
+.slides img {
+
+  width: 500px;
+
+  height: 335px;
+
+}
+
+  @keyframes glisse {
+
+    0% {
+
+      transform: translateX(0);
+
+    }
+
+    10% {
+
+      transform: translateX(0);
+
+    }
+
+    33% {
+
+      transform: translateX(-500px);
+
+    }
+
+    43% {
+
+      transform: translateX(-500px);
+
+    }
+
+    66% {
+
+      transform: translateX(-1000px);
+
+    }
+
+    76% {
+
+      transform: translateX(-1000px);
+
+    }
+
+    100% {
+
+      transform: translateX(0);
+
+    }
+
+  }
